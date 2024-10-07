@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FalaAiUnit</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_schedule_meeting">ScheduleMeetingActivity</string>
+    <string name="title_activity_meeting_list">MeetingListActivity</string>
+</resources>

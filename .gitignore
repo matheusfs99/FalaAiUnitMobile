@@ -1,0 +1,106 @@
+# Build e arquivos gerados automaticamente
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+
+# Arquivos de configurações locais do Android Studio
+.idea
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/misc.xml
+.idea/codestyles/
+.idea/gradle.xml
+.idea/vcs.xml
+.idea/dictionaries
+.idea/httpRequests
+.idea/copyright/
+.idea/inspectionProfiles
+
+# Arquivos de configurações do Android Studio que podem ser versionados
+!.idea/gradle.xml
+!.idea/modules.xml
+!.idea/workspace.xml
+!.idea/copyright/
+!.idea/inspectionProfiles/
+
+# Diretórios específicos do Android Studio
+*.iml
+.gradle/
+local.properties
+.DS_Store
+.gradle/
+/build/
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/tasks.xml
+/.idea/caches/
+/.idea/
+
+# Logs
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache do sistema
+.cache
+# Arquivos específicos do Windows
+*.exe
+*.dll
+*.bat
+
+# Arquivos específicos de Linux ou Mac
+*.out
+
+# Arquivos de configuração de ambiente que podem conter dados sensíveis
+/local.properties
+/.gradle/
+
+# Arquivos de chave para release (APK assinado)
+*.jks
+
+# Arquivos de banco de dados de teste
+/test-db/
+
+# Gradle
+.gradle/
+build/
+
+# Arquivos de cache específicos de compilação do Android
+captures/
+output.json
+
+# Configurações do Maven
+local.properties
+.settings/
+
+# Configurações específicas do IntelliJ
+*.iml
+/.idea/
+
+# Cache do Android Studio
+.idea/
+.gradle/
+
+# Arquivos de configuração temporários de execução do Android Studio
+.idea/caches/
+.idea/libraries/
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/misc.xml
+
+# Arquivos de cache do Android Lint
+lint/intermediates/
+lint/generated/
+
+# Arquivos de compilação
+/build/
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe o email do usuário"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />
+
+    <TextView
+        android:id="@+id/tvUsuarioInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição da reunião"
+        android:visibility="gone"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Início da reunião"
+        android:focusable="false"
+        android:clickable="true"
+        android:visibility="gone"
+        android:inputType="none"/>
+
+    <EditText
+        android:id="@+id/etEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fim da reunião"
+        android:focusable="false"
+        android:clickable="true"
+        android:visibility="gone"
+        android:inputType="none"/>
+
+    <Button
+        android:id="@+id/btnMarcarReuniao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcar Reunião"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvMensagemErro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuário inexistente"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingTop="20dp"/>
+
+</LinearLayout>
